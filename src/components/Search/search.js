@@ -27,7 +27,6 @@ const Search = ({ setSearch, setPageNumber }) => {
         }} 
         placeholder="Search for characters"
         />
-    <button id="clearButton">Clear</button>
       <button
         onClick={searchBtn}
         className={`${styles.btn} btn btn-primary fs-5`}
