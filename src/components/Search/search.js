@@ -12,15 +12,6 @@ const Search = ({ setSearch, setPageNumber }) => {
     <form
       className={`${styles.search} d-flex flex-sm-row flex-column align-items-center justify-content-center gap-4 mb-5`}
     >
-      {/* <input
-        onChange={(e) => {
-          setPageNumber(1);
-          setSearch(e.target.value);
-        }}
-        placeholder="Search for characters"
-        className={styles.input}
-        type="text"
-      /> */}
       <input type="search" onChange={(e) => {
           setPageNumber(1);
           setSearch(e.target.value);
