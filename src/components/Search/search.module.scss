@@ -5,6 +5,10 @@ input[type="search"] {
     padding: 10px 15px;
     &:focus { outline: green; border-color: green; }
   }
+  input[type="search"]::-webkit-search-decoration:hover,
+input[type="search"]::-webkit-search-cancel-button:hover { 
+    cursor:pointer; 
+}
   .btn {
     box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
   }
